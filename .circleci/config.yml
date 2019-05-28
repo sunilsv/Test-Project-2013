@@ -1,27 +1,33 @@
 version: 2
-jobs:
-  
+jobs:  
     codetest:
-    docker:
-      - image:  spbk/circleci-golang
-    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
-    steps:
-      - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
-      - run:
-          name: run code tests
-          command: |
-            cd src/github.com/sunilsv/Test-Project-2013
-            make get
-            make codetest
-  unittest:
-    docker:
-      - image:  spbk/circleci-golang
-    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
-    steps:
-      - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
-      - run:
-          name: run unit tests
-          command: |
-            cd src/github.com/sunilsv/Test-Project-2013
-            make get
-            make test
+        docker:
+          - image:  spbk/circleci-golang
+        working_directory: /go/src/github.com/sunilsv/Test-Project-2013
+        steps:
+          - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
+          - run:
+              name: run code tests
+              command: |
+                cd src/github.com/sunilsv/Test-Project-2013
+                make get
+                make codetest
+    unittest:
+        docker:
+          - image:  spbk/circleci-golang
+        working_directory: /go/src/github.com/sunilsv/Test-Project-2013
+        steps:
+          - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
+          - run:
+              name: run unit tests
+              command: |
+                cd src/github.com/sunilsv/Test-Project-2013
+                make get
+                make test
+     
+    workflows:
+        version: 2
+        dvm-services:
+        jobs:
+          - codetest
+          - unittest
