@@ -1,18 +1,27 @@
 version: 2
 jobs:
-  build:
+  
+    codetest:
     docker:
-      - image: spbk/circleci-golang
-    working_directory: /go/src/github.com/sbstjn/go-lambda-example
-
+      - image:  spbk/circleci-golang
+    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
     steps:
-      - checkout
-
-      - run: touch .env
-
-      - run: make install
-      - run: make test
-      - run: make build
-      - run: make package
-
-    
+      - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
+      - run:
+          name: run code tests
+          command: |
+            cd src/github.com/sunilsv/Test-Project-2013
+            make get
+            make codetest
+  unittest:
+    docker:
+      - image:  spbk/circleci-golang
+    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
+    steps:
+      - run: git clone git@github.com:sunilsv/Test-Project-2013.git src/github.com/sunilsv/Test-Project-2013
+      - run:
+          name: run unit tests
+          command: |
+            cd src/github.com/sunilsv/Test-Project-2013
+            make get
+            make test
