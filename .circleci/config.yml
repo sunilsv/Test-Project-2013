@@ -1,9 +1,9 @@
 version: 2
-jobs:  
-    build:
+jobs:
+  build:
     docker:
       - image: spbk/circleci-golang
-    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
+    working_directory: /go/src/github.com/sbstjn/go-lambda-example
 
     steps:
       - checkout
@@ -13,3 +13,6 @@ jobs:
       - run: make install
       - run: make test
       - run: make build
+      - run: make package
+
+    
