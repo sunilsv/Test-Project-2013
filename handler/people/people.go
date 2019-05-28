@@ -6,7 +6,7 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/sbstjn/go-lambda-example/repository"
+	"github.com/sunilsv/Test-Project-2013/repository"
 )
 
 type AlphabeticalPersonList []repository.Person
