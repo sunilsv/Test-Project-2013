@@ -58,29 +58,3 @@ resource "aws_iam_role" "people_lambda_role" {
   name               = "people_lambda_role"
   assume_role_policy = "${data.aws_iam_policy_document.people_lambda_policy.json}"
 }
-
-data "aws_iam_policy_document" "people_cloudwatch_event_policy" {
-  statement {
-    sid    = ""
-    effect = "Allow"
-
-    principals {
-      identifiers = ["events.amazonaws.com"]
-      type        = "Service"
-    }
-
-    actions = ["sts:AssumeRole"]
-  }
-}
-
-resource "aws_iam_role" "people_cloudwatch_event_role" {
-  name               = "people_cloudwatch_event_role"
-  assume_role_policy = "${data.aws_iam_policy_document.people_cloudwatch_event_policy.json}"
-}
-
-resource "aws_lambda_permission" "people_allow_cloudwatch_lambda" {
-  action        = "lambda:InvokeFunction"
-  function_name = "${aws_lambda_function.sqs-to-firehose.function_name}"
-  principal     = "events.amazonaws.com"
-  source_arn    = "${aws_cloudwatch_event_rule.people_event.arn}"
-}
