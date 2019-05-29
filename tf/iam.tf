@@ -80,7 +80,7 @@ resource "aws_iam_role" "people_cloudwatch_event_role" {
 
 resource "aws_lambda_permission" "people_allow_cloudwatch_lambda" {
   action        = "lambda:InvokeFunction"
-  function_name = "${aws_lambda_function.people.function_name}"
+  function_name = "${aws_lambda_function.sqs-to-firehose.function_name}"
   principal     = "events.amazonaws.com"
   source_arn    = "${aws_cloudwatch_event_rule.people_event.arn}"
 }
