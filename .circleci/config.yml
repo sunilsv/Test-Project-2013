@@ -31,7 +31,6 @@ jobs:
 
     steps:
       - checkout
-      - *install_terraform  
       - run: touch .env
 
       - run: make install
