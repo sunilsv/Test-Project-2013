@@ -26,8 +26,8 @@ references:
 jobs:
   build:
     docker:
-      - image: spbk/circleci-golang
-    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
+      - image: mafs/go
+    working_directory: /root/go
 
     steps:
       - checkout
