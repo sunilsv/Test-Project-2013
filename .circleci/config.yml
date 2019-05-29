@@ -1,4 +1,28 @@
 version: 2
+
+references:
+  install_aws_dependencies: &install_aws_dependencies
+    run:
+      name: install aws dependencies
+      command: |
+        sudo pip install awscli
+        sudo apt-get install -y zip
+  install_node: &install_node
+    run:
+      name: install node
+      command: |
+        curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+        sudo apt-get update
+        sudo apt-get install -y nodejs
+  install_terraform: &install_terraform
+    run:
+      name: install terraform
+      command: |
+        LATEST_TERRAFORM_VER=$(curl -s https://checkpoint-api.hashicorp.com/v1/check/terraform | jq -r -M '.current_version')
+        curl -L -o terraform.zip "https://releases.hashicorp.com/terraform/${LATEST_TERRAFORM_VER}/terraform_${LATEST_TERRAFORM_VER}_linux_amd64.zip"
+        unzip terraform.zip
+        sudo mv terraform /usr/local/bin/
+        
 jobs:
   build:
     docker:
@@ -7,11 +31,12 @@ jobs:
 
     steps:
       - checkout
-
+      - *install_terraform  
       - run: touch .env
 
       - run: make install
       - run: make test
+      - run: make get
       - run: make build
       - run: make package
       - run: make deploy

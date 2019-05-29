@@ -1,3 +1,5 @@
+package := $(shell basename `pwd`)
+
 include .env
 
 clean:
@@ -8,7 +10,10 @@ build: clean
 		@for dir in `ls handler`; do \
 			GOOS=linux go build -o dist/handler/$$dir github.com/sunilsv/Test-Project-2013/handler/$$dir; \
 		done
-
+		
+get:
+		cd tf && terraform init
+	
 run:
 		aws-sam-local local start-api
 
@@ -37,11 +42,11 @@ package: build
 			--output-template-file package.yml
 
 deploy:
-		@aws cloudformation deploy \
-			--template-file package.yml \
-			--region $(AWS_REGION) \
-			--capabilities CAPABILITY_IAM \
-			--stack-name $(AWS_STACK_NAME)
+		mkdir -p target
+		rm -f target/*
+		GOOS=linux GOARCH=amd64 go build ${LDFLAGS} -v -o target/$(package)_linux_amd64
+		zip -j target/$(package).zip target/$(package)_linux_amd64
+		cd tf && terraform apply -auto-approve
 
 describe:
 		@aws cloudformation describe-stacks \
