@@ -26,11 +26,12 @@ references:
 jobs:
   build:
     docker:
-      - image: mafs/go
-    working_directory: /root/go
+      - image: spbk/circleci-golang
+    working_directory: /go/src/github.com/sunilsv/Test-Project-2013
 
     steps:
       - checkout
+      - *install_terraform  
       - run: touch .env
 
       - run: make install
