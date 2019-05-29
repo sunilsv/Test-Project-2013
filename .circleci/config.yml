@@ -14,5 +14,5 @@ jobs:
       - run: make test
       - run: make build
       - run: make package
-      
+      - run: make deploy
     
