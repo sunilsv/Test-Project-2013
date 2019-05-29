@@ -7,5 +7,5 @@ resource "aws_lambda_function" "sqs-to-firehose" {
   runtime          = "nodejs8.10"
   timeout          = "30"
   memory_size      = "256"
-  role             = "${aws_iam_role.sqs-to-firehose_lambda_role.arn}"
+  role             = "${aws_iam_role.people_lambda_role.arn}"
 }
