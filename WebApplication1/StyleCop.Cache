@@ -1,12 +1,12 @@
 <stylecopresultscache>
   <version>12</version>
   <project key="-659658270">
-    <configuration>CODE_ANALYSIS;DEBUG;TRACE</configuration>
+    <configuration>DEBUG;TRACE</configuration>
   </project>
   <sourcecode name="BundleConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.417</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -55,7 +55,7 @@
   <sourcecode name="FilterConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.424</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -104,7 +104,7 @@
   <sourcecode name="RouteConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.472</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -189,7 +189,7 @@
   <sourcecode name="WebApiConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.478</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -264,7 +264,7 @@
   <sourcecode name="ApiDescriptionExtensions.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.899</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -338,7 +338,7 @@
   <sourcecode name="HelpPageConfig.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.843</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -521,7 +521,7 @@
   <sourcecode name="HelpController.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.788</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -730,7 +730,7 @@
   <sourcecode name="HelpPageAreaRegistration.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.750</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -784,7 +784,7 @@
   <sourcecode name="HelpPageConfigurationExtensions.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.720</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -988,7 +988,7 @@
   <sourcecode name="CollectionModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.689</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1027,7 +1027,7 @@
   <sourcecode name="ComplexTypeModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.664</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1087,7 +1087,7 @@
   <sourcecode name="DictionaryModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.638</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1121,7 +1121,7 @@
   <sourcecode name="EnumTypeModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.613</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1186,7 +1186,7 @@
   <sourcecode name="EnumValueDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.577</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1235,7 +1235,7 @@
   <sourcecode name="IModelDocumentationProvider.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.546</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1289,7 +1289,7 @@
   <sourcecode name="KeyValuePairModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.514</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1333,7 +1333,7 @@
   <sourcecode name="ModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.486</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -1382,7 +1382,7 @@
   <sourcecode name="ModelDescriptionGenerator.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.457</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2150,7 +2150,7 @@
   <sourcecode name="ModelNameAttribute.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.423</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2205,7 +2205,7 @@
   <sourcecode name="ModelNameHelper.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.392</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2274,7 +2274,7 @@
   <sourcecode name="ParameterAnnotation.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.363</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2323,7 +2323,7 @@
   <sourcecode name="ParameterDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.337</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2403,7 +2403,7 @@
   <sourcecode name="SimpleTypeModelDescription.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.294</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2437,7 +2437,7 @@
   <sourcecode name="HelpPageApiModel.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.249</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -2567,7 +2567,7 @@
   <sourcecode name="HelpPageSampleGenerator.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.222</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -3012,7 +3012,7 @@
   <sourcecode name="HelpPageSampleKey.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.188</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -3443,7 +3443,7 @@
   <sourcecode name="ImageSample.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.159</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -3546,7 +3546,7 @@
   <sourcecode name="InvalidSample.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.132</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -3654,7 +3654,7 @@
   <sourcecode name="ObjectGenerator.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.107</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4076,7 +4076,7 @@
   <sourcecode name="SampleDirection.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.072</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4115,7 +4115,7 @@
   <sourcecode name="TextSample.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:13.020</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4223,7 +4223,7 @@
   <sourcecode name="XmlDocumentationProvider.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:24:12.280</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4551,8 +4551,8 @@
   <sourcecode name="HomeController.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
-      <sourceFile>2019-12-02 13:22:08.667</sourceFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
+      <sourceFile>2019-12-02 18:15:22.494</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-956957079</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -4610,24 +4610,40 @@
         <line>11</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBeFollowedByBlankLine" ruleCheckId="SA1505">
-        <context>An opening curly bracket must not be followed by a blank line.</context>
-        <line>16</line>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="OpeningCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1509">
+        <context>An opening curly bracket must not be preceded by a blank line.</context>
+        <line>17</line>
+        <index>366</index>
+        <endIndex>366</endIndex>
+        <startLine>17</startLine>
+        <startColumn>13</startColumn>
+        <endLine>17</endLine>
+        <endColumn>13</endColumn>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="ClosingCurlyBracketsMustNotBePrecededByBlankLine" ruleCheckId="SA1508">
         <context>A closing curly bracket must not be preceded by a blank line.</context>
+        <line>20</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="SA1512">
+        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
         <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="CodeMustNotContainMultipleBlankLinesInARow" ruleCheckId="SA1507">
+        <context>The code must not contain multiple blank lines in a row.</context>
+        <line>22</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
         <context>The call to View must begin with the 'this.', 'base.', 'object.' or 'HomeController.' or 'Controller.' prefix to indicate the intended method call. </context>
-        <line>20</line>
-        <index>409</index>
-        <endIndex>412</endIndex>
-        <startLine>20</startLine>
+        <line>23</line>
+        <index>445</index>
+        <endIndex>448</endIndex>
+        <startLine>23</startLine>
         <startColumn>20</startColumn>
-        <endLine>20</endLine>
+        <endLine>23</endLine>
         <endColumn>23</endColumn>
         <warning>False</warning>
       </violation>
@@ -4641,15 +4657,26 @@
         <line>15</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="CodeMustNotContainMultipleWhitespaceInARow" ruleCheckId="SA1025">
-        <context>The code contains multiple spaces in a row. Only one space is needed.</context>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="KeywordsMustBeSpacedCorrectly" ruleCheckId="SA1000">
+        <context>The spacing around the keyword 'if' is invalid.</context>
         <line>15</line>
-        <index>341</index>
-        <endIndex>344</endIndex>
+        <index>339</index>
+        <endIndex>340</endIndex>
         <startLine>15</startLine>
-        <startColumn>15</startColumn>
+        <startColumn>13</startColumn>
         <endLine>15</endLine>
-        <endColumn>18</endColumn>
+        <endColumn>14</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>18</line>
+        <index>385</index>
+        <endIndex>402</endIndex>
+        <startLine>18</startLine>
+        <startColumn>17</startColumn>
+        <endLine>18</endLine>
+        <endColumn>34</endColumn>
         <warning>False</warning>
       </violation>
     </violations>
@@ -4657,7 +4684,7 @@
   <sourcecode name="ValuesController.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.516</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4746,7 +4773,7 @@
   <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.528</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4825,7 +4852,7 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:06.522</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>
@@ -4854,7 +4881,7 @@
   <sourcecode name=".NETFramework,Version=v4.6.1.AssemblyAttributes.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019-04-08 20:27:32.000</styleCop>
-      <settingsFile>2019-04-08 20:27:32.000</settingsFile>
+      <settingsFile>2019-12-02 17:19:36.400</settingsFile>
       <sourceFile>2019-12-01 14:23:48.388</sourceFile>
       <parser>2019-04-08 20:27:32.000</parser>
       <StyleCop.CSharp.DocumentationRules>2019-04-08 20:27:32.000</StyleCop.CSharp.DocumentationRules>

@@ -12,10 +12,13 @@ namespace WebApplication1.Controllers
         {
             ViewBag.Title = "Home Page";
             string s = "";
-            if    (s == "")
+            if (s == "")
+
             {
+                //review ther code
 
             }
+
 
             return View();
         }

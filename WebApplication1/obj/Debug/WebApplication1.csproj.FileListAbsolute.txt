@@ -127,8 +127,6 @@ D:\Projects\Test-Project-2013\WebApplication1\bin\roslyn\vbc.exe.config
 D:\Projects\Test-Project-2013\WebApplication1\bin\roslyn\vbc.rsp
 D:\Projects\Test-Project-2013\WebApplication1\bin\roslyn\VBCSCompiler.exe
 D:\Projects\Test-Project-2013\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
-D:\Projects\Test-Project-2013\WebApplication1\bin\WebApplication1.dll.CodeAnalysisLog.xml
-D:\Projects\Test-Project-2013\WebApplication1\bin\WebApplication1.dll.lastcodeanalysissucceeded
 D:\Projects\Test-Project-2013\WebApplication1\bin\Antlr3.Runtime.dll
 D:\Projects\Test-Project-2013\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Projects\Test-Project-2013\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
@@ -157,7 +155,6 @@ D:\Projects\Test-Project-2013\WebApplication1\bin\System.Web.WebPages.Deployment
 D:\Projects\Test-Project-2013\WebApplication1\bin\System.Web.WebPages.Razor.xml
 D:\Projects\Test-Project-2013\WebApplication1\bin\Antlr3.Runtime.pdb
 D:\Projects\Test-Project-2013\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Projects\Test-Project-2013\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
 D:\Projects\Test-Project-2013\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 D:\Projects\Test-Project-2013\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 D:\Projects\Test-Project-2013\WebApplication1\obj\Debug\WebApplication1.dll
