@@ -11,6 +11,11 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
+            string s = "";
+            if(s == "")
+            {
+
+            }
 
             return View();
         }
